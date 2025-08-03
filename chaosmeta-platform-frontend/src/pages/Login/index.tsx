@@ -11,7 +11,7 @@ export default () => {
   const intl = useIntl();
 
   /**
-   * 注册
+   * 注册 - 修改注释
    */
   const handleRegister = useRequest(register, {
     manual: true,
